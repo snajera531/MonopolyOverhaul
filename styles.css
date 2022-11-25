@@ -169,7 +169,14 @@ td {
 	writing-mode: vertical-rl;
 	text-orientation: mixed;
 } */
-
+#nextbutton{
+	border: 1px;
+	border-radius: 10px;
+	height: 35px;
+}
+#board{
+	background-color: #6dc7b1;
+}
 #control {
 	position: absolute;
 	z-index: 9;
