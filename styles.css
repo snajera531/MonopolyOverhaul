@@ -1,5 +1,5 @@
 body {
-	background: #FFFFFF;
+	background-color: #38947d;
 	margin: 0px;
 	min-width: 1075px;
 }
@@ -62,6 +62,7 @@ td {
 }
 
 #board {
+	background-color: #6dc7b1;
 	display: none;
 	border: 2px solid black;
 	border-spacing: 3px;
@@ -174,9 +175,7 @@ td {
 	border-radius: 10px;
 	height: 35px;
 }
-#board{
-	background-color: #6dc7b1;
-}
+
 #control {
 	position: absolute;
 	z-index: 9;
@@ -613,6 +612,9 @@ td {
 #enlarge-wrap {
 	border: none;
 	z-index: 0;
+}
+.player-input{
+height: 25px;
 }
 
 .menu-item:hover {
