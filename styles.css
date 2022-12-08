@@ -11,13 +11,21 @@ td {
 	text-align: center;
 }
 
+#logo {
+	height: 105px;
+	width: 408px;
+}
+
 #setup {
+	border: 5px solid #187260;
+	border-radius: 8px;
 	display: none;
 	margin: 25px;
 	background-color: #6dc7b1;
 	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 15px;
 	padding-left: 15px;
+	width: 425px;
 }
 
 #moneybar {
@@ -261,7 +269,7 @@ td {
 	position: absolute;
 	z-index: 9;
 	top: 250px;
-	left: 300px;
+	left: 275px;
 	width: 450px;
 	border: 2px solid black;
 	padding: 10px;
@@ -295,7 +303,7 @@ td {
 #alert {
 	width: 315px;
 	height: 100px;
-	margin: 0px;
+	margin-right: 20px;
 	padding-left: 1px;
 	border: 1px solid darkgray;
 	font-family: Verdana;
@@ -700,10 +708,7 @@ height: 25px;
 }
 
 .menu-item:hover {
-	/* background-image: -webkit-linear-gradient(bottom,#000080,#4787ED);
-	background-image: -moz-linear-gradient(bottom,#000080,#4787ED); */
-
-	background-image: url(images/menu_background_hover.png);
+	background-color: blueviolet;
 }
 
 .menu-item {
@@ -728,8 +733,6 @@ height: 25px;
 }
 
 .die-no-img {
-
-
 	border-radius: 6px;
 	font-weight: bold;
 	border: 2px solid black;
@@ -955,15 +958,10 @@ height: 25px;
 
 .board-top .cell-owner {
 	background-image: url("images/hori-bar.png");
-
 	height: 15px;
 	left: 0px;
-
-
-
 	top: -25px;
 	width: 72px;
-
 }
 
 .board-bottom .cell-owner {
@@ -976,15 +974,10 @@ height: 25px;
 
 .board-left .cell-owner {
 	background-image: url("images/vert-bar.png");
-
 	height: 68px;
 	left: -25px;
-
-
-
 	top: 0px;
 	width: 15px;
-
 }
 
 .board-right .cell-owner {
