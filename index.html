@@ -117,7 +117,7 @@
 			<td class="cell board-top" id="cell27"><div id="box2"></div></td>
 			<td class="cell board-top" id="cell28"><img src="images/water_icon.png" class="chance">></td>
 			<td class="cell board-top" id="cell29"><div id="box2"></div></td>
-			<td class="cell board-corner" id="cell30"><img src="images/gotojail.png" class="chance"></td>
+			<td class="cell board-corner" id="cell30"><img src="images/gotojail.png" class="chance" ></td>
 		</tr><tr>
 			<td class="cell board-left" id="cell19"><div id="box5"></div></td>
 			<td colspan="9" class="board-center"></td>
@@ -153,7 +153,7 @@
 		</tr><tr>
 			<td class="cell board-left" id="cell11"><div id="box6"></div></td>
 			<td colspan="9" class="board-center">
-				<div id="jail"><img src="images/jake_icon.png"></div>
+				<div id="jail"><img src="images/jake_icon.png" class="jail"></div>
 			</td>
 			<td class="cell board-right" id="cell39"><div id="box8"></div></td>
 		</tr><tr>
@@ -167,7 +167,7 @@
 			<td class="cell board-bottom" id="cell3"><div id="box4"></div></td>
 			<td class="cell board-bottom" id="cell2"><img src="images/community_chest_icon.png" class="chance"></td>
 			<td class="cell board-bottom" id="cell1"><div id="box4"></div></td>
-			<td class="cell board-corner" id="cell0"><img src="images/arrow_icon.png" class="chance"></td>
+			<td class="cell board-corner" id="cell0"><img src="images/arrow_icon.png" class="chance" style="width:60px; height:30px"></td>
 		</tr>
 	</table>
 
@@ -241,6 +241,7 @@
 	</div>
 
 	<div id="setup">
+		<h1 style="font-weight:bold" >Monopoly Set Up</h1>
 		<div style="margin-bottom: 20px;">
 			Select number of players.
 			<select id="playernumber" title="Select the number of players for the game.">
@@ -274,7 +275,7 @@
 				<option style="color: teal;">Teal</option>
 				<option selected="selected" style="color: yellow;">Yellow</option>
 			</select>
-			<select id="player1ai" title="Choose whether this player is controled by a human or by the computer." onclick="document.getElementById('player1name').disabled = this.value !== '0';">
+			<select id="player1ai" title="Choose whether this player is controlled by a human or by the computer." onclick="document.getElementById('player1name').disabled = this.value !== '0';">
 				<option value="0" selected="selected">Human</option>
 				<option value="1">AI (Test)</option>
 			</select>
@@ -477,15 +478,12 @@
 						<table id="menutable" cellspacing="0">
 							<tr>
 								<td class="menu-item" id="buy-menu-item">
-
 									<a href="javascript:void(0);" title="View alerts and buy the property you landed on.">Buy</a>
 								</td>
 								<td class="menu-item" id="manage-menu-item">
-
 									<a href="javascript:void(0);" title="View, mortgage, and improve your property. ">Manage</a>
 								</td>
 								<td class="menu-item" id="trade-menu-item">
-
 									<a href="javascript:void(0);" title="Exchange property with other players.">Trade</a>
 								</td>
 							</tr>
